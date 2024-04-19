@@ -6,7 +6,7 @@ import java.util.List;
 public class ShapeApp {
 
     public static void main(String[] args) {
-        List<Shape> sList = new ArrayList<Shape>(); 
+        List<Shape> sList = new ArrayList<Shape>(); // shape을 부모로둔 모든 클래스를 담고있다
         
         Shape r= new Rectangle( 5, 6 );
         Shape t= new RectTriangle( 6, 2 );

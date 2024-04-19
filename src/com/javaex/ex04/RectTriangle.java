@@ -7,7 +7,7 @@ public class RectTriangle extends Shape {
 
     //	생성자
     public RectTriangle (double width, double height) {
-    	super(6,2);
+    
        	this.width = width;
     	this.height = height;
     }

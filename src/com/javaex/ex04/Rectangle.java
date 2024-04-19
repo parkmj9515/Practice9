@@ -7,7 +7,6 @@ public class Rectangle extends Shape implements Resizeable{
 
     //	생성자
     public Rectangle (double width, double height) {
-    	super(5,6);
     	this.width = width;
     	this.height = height;
     }
@@ -15,7 +14,8 @@ public class Rectangle extends Shape implements Resizeable{
     
 	@Override
 	public void resize(double s) {
-		
+		width = width*s;
+		height = height*s;
 	}
 
 
